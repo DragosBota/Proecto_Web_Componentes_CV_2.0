@@ -1,0 +1,44 @@
+#About{
+  background-color: var(--dark);
+  padding: 40px;
+  color: var(--light);
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+#About img{
+  position: absolute;
+  z-index: 0; 
+  width: 90%;
+  min-height: 95vh;
+  right: 0;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+#About div{
+  width: 55%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+/*Mobile version*/
+@media (max-width:760px){
+  #About{
+    padding: 40px;
+  }
+  
+  #About img{
+    width: 100%;
+    min-height: 95vh;
+  }
+  
+  #About div{
+    width: 80%;
+    height: 60vh;
+  }
+}

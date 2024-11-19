@@ -1,0 +1,241 @@
+header{
+  min-height: 100vh;
+  background-color: var(--dark);
+  padding: 20px 40px;
+  position: relative; 
+  color: var(--medium);
+}
+
+header img{
+  position: absolute;
+  z-index: 0; 
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+nav{
+  position: fixed; 
+  top: 0;
+  right: 0;
+  padding: 20px 40px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+a{
+  color: var(--light);
+  text-transform: uppercase;
+}
+
+.row {
+  flex-direction: row;
+  transition: 0.1s;
+  background-color: var(--dark);
+  justify-content: flex-end;
+  gap: 30px;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--light);
+}
+
+.column {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#landing-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  color: var(--light);
+  position: relative;
+  z-index: 1;
+  margin-top: 35vh; 
+}
+
+h2{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--green);
+}
+
+.small-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.large-text {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+#social-container{
+  position: relative;
+  z-index: 1;
+}
+
+/*Animated text*/
+.animated-text{
+  font-size: 3rem;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.animated-text span{
+  position: relative;
+}
+
+.animated-text span::before{
+  content: "Front dev";
+  color: var(--green);
+  animation: words 20s infinite;
+}
+
+.animated-text span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: var(--dark);
+  border-left: 2px solid var(--green);
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s ease infinite;
+}
+
+/* Animación del cursor parpadeante */
+@keyframes cursor {
+  to{
+      border-left: 2px solid var(--medium);
+  }
+}
+
+@keyframes words {
+  0%,20%{
+      content: "Front dev";
+  }
+  21%,40%{
+      content: "Future back dev";
+  }
+  41%,60%{
+      content: "Figma designer";
+  }
+  61%,80%{
+      content: "Front dev";
+  }
+  81%,100%{
+      content: "Figma designer";
+  }
+}
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+      width: calc(100% + 8px);
+  }
+}
+
+#social-container ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  margin-top: 12vh;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+
+#social-container li{
+border: 2px solid var(--light);
+padding: 8px 16px;
+border-radius: 40px;
+}
+
+
+#social-container ul li:nth-child(2) {
+  background-color: var(--green);
+  border: var(--green);
+}
+
+#social-container ul li:nth-child(2) a{
+ color: var(--dark);
+}
+
+
+@media (max-width:760px){
+  header img{
+    opacity: 0.2;
+  }
+
+  #menu-icon svg{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  nav{
+    left: 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  
+  .row {
+    gap: 10px;
+    font-size: 0.8rem;
+    justify-content: center;
+  }
+
+  h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--green);
+  }
+  
+  .small-text {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .large-text {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  .animated-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    min-width: 280px;
+  }
+
+  #social-container li{
+    border: 2px solid var(--light);
+    padding: 6px 12px;
+    border-radius: 40px;
+    }
+
+  #social-container ul{
+    flex-direction: column;
+    margin-top: 10vh;
+    gap: 20px;
+    font-size: 0.8rem;
+  }
+}
+
