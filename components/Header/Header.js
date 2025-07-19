@@ -5,7 +5,7 @@ const {navbar, name, surname, avatar, avatar_alt, cv_link, about} = data;
 
 const template = () => {
 return `
-<img src="../public/assets/header-background.png" alt="${avatar_alt}" id"bg-img">
+<img src="/assets/header-background.png" alt="${avatar_alt}" id"bg-img">
 <nav id="nav" class="column">
   ${navbar.map((element) => `
     <a href="#${element}">${element}</a>
