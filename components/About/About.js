@@ -4,7 +4,7 @@ const {about} = data;
 
 const template = () =>{
   return `
-  <img src="./public/assets/header-background.png">
+  <img src="/assets/header-background.png">
   
     <h4>About</h4>
   <div>

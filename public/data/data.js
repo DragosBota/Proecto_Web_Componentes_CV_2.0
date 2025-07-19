@@ -54,6 +54,15 @@ const data = {
       preview:
         "/assets/personal-cv.png",
     },
+    {
+      title: "COSMOS",
+      subtitle:"- Final Project",
+      description:
+        "The entire structure and content of this resume are dynamically generated and managed through JavaScript, using the Document Object Model (DOM) to insert and modify elements on the page and event listeners to enable a responsive and engaging user experience. CSS is applied to style the resume, ensuring a clean and professional layout. By relying solely on JavaScript and CSS, this project highlights the power of DOM manipulation for building and maintaining a fully interactive and customizable resume without the need for additional HTML. It exemplifies how a webpage can be crafted with a focus on efficiency and dynamic content generation.",
+      link: "http://github.com/#",
+      preview:
+        "/assets/cosmos.png",
+    }
   ],
   workExperience: [
     {
