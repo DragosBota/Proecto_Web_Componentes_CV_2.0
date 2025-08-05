@@ -30,7 +30,7 @@ const EventListeners = () => {
   })
 
   const COSMOS = document.querySelector('#img5').addEventListener('click', () =>{
-    window.open('proyecto-final-cosmos.vercel.app', '_blank');
+    window.open('https://proyecto-final-cosmos.vercel.app', '_blank');
   })
 
   const textarea = document.querySelector("textarea");

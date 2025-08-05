@@ -58,7 +58,7 @@ const data = {
       title: "COSMOS",
       subtitle:"- Final Project",
       description:
-        "The entire structure and content of this resume are dynamically generated and managed through JavaScript, using the Document Object Model (DOM) to insert and modify elements on the page and event listeners to enable a responsive and engaging user experience. CSS is applied to style the resume, ensuring a clean and professional layout. By relying solely on JavaScript and CSS, this project highlights the power of DOM manipulation for building and maintaining a fully interactive and customizable resume without the need for additional HTML. It exemplifies how a webpage can be crafted with a focus on efficiency and dynamic content generation.",
+        "This project showcases the development of a fully responsive and semantically structured web application using HTML, CSS (with variables, Flexbox, and Grid), and JavaScript. Built with Vite for an optimized development workflow, the application is component-based and emphasizes modularity and reusability. Instead of consuming an external API, the content is dynamically generated and manipulated using the Document Object Model (DOM), demonstrating advanced DOM automation techniques. Event listeners manage user interactions to deliver a seamless and engaging experience. The project is fully deployed, reflecting production-ready quality and attention to performance, accessibility, and clean design.",
       link: "http://github.com/#",
       preview:
         "/assets/cosmos.png",
@@ -122,7 +122,7 @@ const data = {
       name: "Name",
       email: "Email",
       message: "Message",
-      privacy: "By submitting this form, you acknowledge receipt of our compani Privacy and Policy.",
+      privacy: "By submitting this form, you acknowledge receipt of our company's Privacy and Policy terms.",
   }
 
 };
