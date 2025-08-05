@@ -118,7 +118,7 @@ const Contact = () => {
   // Añadir listeners después de insertar el DOM
   document.getElementById("contact-form-raw").addEventListener("submit", sendEmail);
   document.getElementById("scheduleBtn").addEventListener("click", () => {
-    window.open("https://calendly.com/tu_usuario", "_blank"); // Cambia tu Calendly
+    window.open("https://calendly.com/dragosbota0", "_blank"); // Cambia tu Calendly
   });
 };
 

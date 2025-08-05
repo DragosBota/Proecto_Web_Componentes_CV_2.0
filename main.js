@@ -29,6 +29,10 @@ const EventListeners = () => {
     window.open('', '_blank');
   })
 
+  const COSMOS = document.querySelector('#img5').addEventListener('click', () =>{
+    window.open('proyecto-final-cosmos.vercel.app', '_blank');
+  })
+
   const textarea = document.querySelector("textarea");
   textarea.addEventListener("keyup", e => {
     textarea.style.height = "auto";
