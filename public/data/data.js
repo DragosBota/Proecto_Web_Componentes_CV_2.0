@@ -66,10 +66,20 @@ const data = {
   ],
   workExperience: [
     {
+      position: "International Bussines Developer",
+      company: "HealthCare Spain",
+      startDate: "December 2024",
+      endDate: "Present",
+      description: [
+        "· Lead global B2B sales and market research in order to develop new strategic partnerships.",
+        "· Manage and support key accounts, ensuring smooth coordination from product development to post-sales asistance",
+      ]
+    },
+    {
       position: "Marketing Technical Support",
       company: "Alfarben",
       startDate: "May 2023",
-      endDate: "Present",
+      endDate: "November 2024",
       description: [
         "· Conduct market research focused on analyzing competitor pigments, providing key insights for innovation.",
         "· Develop new products and color shades tailored to specific customer needs, opening up new business opportunities.",
@@ -98,8 +108,9 @@ const data = {
     },
   ],
   about:[
-    "Moved to a small town near Valencia, Spain, when I was 6 years old. I've always loved spending time outdoors, which led to my passion for extreme sports and the thrill of adrenaline. I initially pursued a degree in chemistry at university but decided to leave after two years to work in a lab.",
-    "I stumbled upon coding by chance, and it sparked something within me. Since then, I've dedicated myself to learning and coding every day to continuously improve.",
+    "Passionate and adaptable professional transitioning into software development after a solid background in international B2B business. Currently completing a Higher Vocational Degree in Multiplatform App Development and a Fullstack Web Development master's program (PROMETEO by ThePower), I bring a unique blend of analytical thinking, client management experience, and strong problem-solving skills.",
+    "My day-to-day work has trained me to manage key clients, coordinate product development with international teams, and thrive in dynamic environments. I'm highly organized, eager to learn, and committed to contributing to collaborative and impactful tech solutions.",
+    "Outside of work, I stay curious and active, often engaging in outdoor sports and creative problem-solving challenges, like DIY home projects — habits that fuel both my personal and professional growth.",
     "Let's code together!"
   ],
   contact: {

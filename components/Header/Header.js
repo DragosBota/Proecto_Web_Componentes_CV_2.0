@@ -21,7 +21,7 @@ return `
 <section id="social-container">
   <ul>
     <li id="hire-form">
-      <a href="#Contact" target="_blank">Let's talk!</a>
+      <a href="#Contact">Let's talk!</a>
     </li>
     <li>
       <a href="${cv_link}" target="_blank">Download CV</a>

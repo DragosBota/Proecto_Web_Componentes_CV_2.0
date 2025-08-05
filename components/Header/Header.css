@@ -131,13 +131,13 @@ h2{
       content: "Future back dev";
   }
   41%,60%{
-      content: "Figma designer";
-  }
-  61%,80%{
       content: "Front dev";
   }
+  61%,80%{
+      content: "Future back dev";
+  }
   81%,100%{
-      content: "Figma designer";
+      content: " ";
   }
 }
 
