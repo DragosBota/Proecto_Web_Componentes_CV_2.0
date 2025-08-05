@@ -99,7 +99,7 @@ const data = {
       position: "Camp Counselor, Director and Training Instructor",
       company: "CarpeVitae",
       startDate: "April 2020",
-      endDate: " - November 2021",
+      endDate: "November 2021",
       description: [
         "· Started as a summer camp counselor, leading activities and ensuring the safety and well-being of participants.",
         "· Promoted to Camp Director, managing teams and coordinating successful programs for youth.",
