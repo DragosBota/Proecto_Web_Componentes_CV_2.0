@@ -13,7 +13,7 @@ const data = {
   avatar:
     "https://images.unsplash.com/photo-1554533899-787ef890e98f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNvY3JhdGVzJTIwYnVzdG98ZW58MHx8MHx8fDA%3D",
   avatar_alt: "Socrates sculpture",
-  cv_link: "https://drive.google.com/file/d/1LUxRO6yK7gPcnaAbGrPpHix9wVEZggQJ/view?usp=drive_link",
+  cv_link: "https://drive.google.com/file/d/1z3lI5zH2SDMdUi0bg48hnNJbPrrsBqjf/view?usp=share_link",
   about:
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eveniet voluptatibus quo, neque modi iusto officia soluta, provident saepe tempora amet explicabo dolor aspernatur cumque est quos totam, voluptate eaque!",
 
